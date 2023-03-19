@@ -23,9 +23,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #31373a;
-  font-family: "Raleway", sans-serif;
-  font-weight: normal;
+  color: #192436;
+  font-family: "PT Serif", Georgia, serif;
+  font-weight: bold
 }
 
 h1 a, h2 a, h3 a,
@@ -164,7 +164,7 @@ a, a:visited {
 }
 
 .light-content, #blogPosts {
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 /*------------------------------------------------------
@@ -199,7 +199,7 @@ a, a:visited {
 }
 .main-nav ul li a {
   color: #31373a;
-  font-size: 13px;
+  font-size: 14.5px;
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
@@ -448,32 +448,35 @@ input.mainBtn {
 }
 
 #homeIntro {
-  background-image: url("../images/hengfu/image_6.jpg");
+  background-image: url("../images/hengfu/services_background.jpg");
 }
 
-#portfolio {
-  background-image: url("../images/includes/portfolio.jpg");
-}
-
-#portfolioId {
-  background-image: url("../images/hengfu/portfolioId.jpg");
-}
-
-#blogPosts {
+#homeBottom {
   background-image: url("../images/hengfu/image_7.jpg");
 }
 
-#blog {
-  background-image: url("../images/hengfu/route_2.jpg");
+#freight_service {
+  background-image: url("../images/hengfu/contact.jpg");
 }
 
-#blogId {
-  background-image: url("../images/includes/blogId.jpg");
-  background-attachment: inherit;
+#agency_service {
+  background-image: url("../images/hengfu/services_background.jpg");
+}
+
+#routes {
+  background-image: url("../images/hengfu/route_6.jpg");
+}
+
+#offices {
+  background-image: url("../images/hengfu/branch_offices.jpg");
+}
+
+#join_us {
+  background-image: url("../images/hengfu/beach.jpg");
 }
 
 #contact {
-  background-image: url("../images/hengfu/contact.jpg");
+  background-image: url("../images/hengfu/beach.jpg");
 }
 
 .parallax {
