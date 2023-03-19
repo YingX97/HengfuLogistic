@@ -564,6 +564,13 @@ blockquote {
   margin-bottom: 80px;
 }
 
+.branch_office_text {
+  color: #161d20;
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
+  display: block;
+}
+
 .service-icon-wrap {
   display: block;
 }
