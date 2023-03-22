@@ -55,6 +55,11 @@
 					            <li><a href="branch_office.html">公司网点</a></li>
 					            <li><a href="join.html">加入恒富</a></li>
 					            <li class="active"><a href="contact.html">联系我们</a></li>
+								<li>
+									<button>
+										<a href="en_contact.html">English</a>
+									</button>
+								</li>
 							</ul> <!-- /.sf-menu -->
 						</nav> <!-- /.main-nav -->
 
@@ -143,7 +148,7 @@
                     	地址: 中国广东省&nbsp广州市天河区&nbsp黄埔大道西76号2115-2116室
                     </p>
 					<p class="copyright-text">
-						版权所有 &copy; 2021 广州市恒富物流有限公司 
+						版权所有 &copy; 2023 广州市恒富物流有限公司 
                     </p>
 				</div> <!-- /.col-md-12 -->
 			</div> <!-- /.row -->
@@ -154,28 +159,6 @@
 	<!-- Scripts -->
 	<script src="./js/min/plugins.min.js"></script>
 	<script src="./js/min/medigo-custom.min.js"></script>
-	<script>
-        function initialize() {
-          var mapOptions = {
-            zoom: 14,
-            center: new google.maps.LatLng(13.758468, 100.567481)
-          };
-
-          var map = new google.maps.Map(document.getElementById('map-canvas'),
-              mapOptions);
-        }
-
-        function loadScript() {
-          var script = document.createElement('script');
-          script.type = 'text/javascript';
-          script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
-              'callback=initialize';
-          document.body.appendChild(script);
-        }
-
-        window.onload = loadScript;
-    </script>
-
-
+	<script src="./js/translate.js"></script>
 </body>
 </html>
